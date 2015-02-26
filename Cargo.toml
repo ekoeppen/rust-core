@@ -1,0 +1,21 @@
+[package]
+
+name = "core"
+version = "0.0.1"
+authors = ["The Rust Project Developers"]
+
+license = "MIT/Apache-2.0"
+repository = "https://github.com/RustyGecko/rust-core"
+homepage = "http://doc.rust-lang.org/nightly/core/"
+description = """
+core as a stand-alone crate
+"""
+
+build = "build.rs"
+
+[lib]
+name = "core"
+path = "rust/src/libcore/lib.rs"
+
+[build-dependencies.rust_src]
+git = "https://github.com/sondrele/rust-src.git"
