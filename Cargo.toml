@@ -18,4 +18,4 @@ name = "core"
 path = "rust/src/libcore/lib.rs"
 
 [build-dependencies.rust_src]
-git = "https://github.com/sondrele/rust-src.git"
+git = "https://github.com/ekoeppen/rust-src.git"
